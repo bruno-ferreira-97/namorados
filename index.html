@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa de Dia dos Namorados ❤️</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="player-audio" src="musica/musica.mpeg" loop></audio>
+
+    <div class="card" id="conteudo-card">
+        
+        <div class="jogo-quiz" id="tela-quiz">
+            
+            <img id="foto-carrossel" src="fotos/1.jpeg" alt="fotos">
+            
+            <h1>Bê, Obrigado por tudo que vc é pra mim e o que faz por nós!<br> Obrigado pelo maior presente que alguém poderia me dar… a Alicinha!<br>
+Feliz dia dos namorados!<br> Fica comigo para sempre?  </h1>
+            <div class="botoes">
+                <button id="btn-sim" onclick="aceitou()">SIM!</button>
+                <button id="btn-nao" onmouseover="fugir()" ontouchstart="fugir()">Não</button>
+            </div>
+        </div>
+
+        <div class="player-musica" id="tela-player">
+            
+            <img id="foto-fixa" src="fotos/20.jpeg" alt="Foto do Casal">
+            
+            <h1>Obrigado por dizeres SIM! 💖</h1>
+            <div class="titulo-musica" id="nome-musica">A Nossa Música Especial</div>
+            <div class="artista">Te amo mais que ontem e menos que amanhã!</div>
+            
+            <div class="controlos">
+                <button class="btn-control" onclick="alternarMusica()" id="btn-play-pause">⏸️</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
