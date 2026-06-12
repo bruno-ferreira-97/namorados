@@ -2,26 +2,26 @@ const audio = document.getElementById("player-audio");
 
 // --- SISTEMA DE CARROSSEL DE FOTOS ---
 const fotosCarrossel = [
-    "fotos/1.jpeg",
-    "fotos/2.jpeg",
-    "fotos/3.jpeg",
-    "fotos/4.jpeg",
-    "fotos/5.jpeg",
-    "fotos/6.jpeg",
-    "fotos/7.jpeg",
-    "fotos/8.jpeg",
-    "fotos/9.jpeg",
+    "1.jpeg",
+    "2.jpeg",
+    "3.jpeg",
+    "4.jpeg",
+    "5.jpeg",
+    "6.jpeg",
+    "7.jpeg",
+    "8.jpeg",
+    "9.jpeg",
     // pulei a 10 porque no seu print não tinha
-    "fotos/11.jpeg",
-    "fotos/12.jpeg",
-    "fotos/13.jpeg",
-    "fotos/14.jpeg",
-    "fotos/15.jpeg",
-    "fotos/16.jpeg",
-    "fotos/17.jpeg",
-    "fotos/18.jpeg",
-    "fotos/19.jpeg",
-    "fotos/20.jpeg"
+    "11.jpeg",
+    "12.jpeg",
+    "13.jpeg",
+    "14.jpeg",
+    "15.jpeg",
+    "16.jpeg",
+    "17.jpeg",
+    "18.jpeg",
+    "19.jpeg",
+    "20.jpeg"
 ];
 
 let indexAtual = 0;
